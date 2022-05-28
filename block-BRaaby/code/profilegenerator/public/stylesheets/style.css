@@ -1,0 +1,98 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+#root{
+    min-height: 100vh;
+    background: #333;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    background-color: red;
+    position: relative;
+    border-radius: .4rem;
+}
+.empty-container{
+    width: 100%;
+    min-height: 10rem;
+    background-color:#E5E6FF;
+}
+.profile-container figure{
+    position: absolute;
+    top: 12%;
+    left : 50%;
+    transform: translate( -50%);
+}
+.profile-container img{
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: .2rem solid #f7ebeb;
+}
+
+.profileInfo-container{
+    padding: 9rem  0  4rem 0 ;
+    background-color: #fff;
+}
+.profileInfo-container h4{
+    font-size:1.4rem ;
+}
+.profileInfo-container h4 , h2{
+    text-align: center;
+}
+.profileInfo-container h2{
+    margin: 1rem 0;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: .2rem;
+} 
+
+.button-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0  3rem ;
+    margin: 2rem 0 ;
+}
+
+
+.button-container button{
+    border: none;
+    background: transparent;
+}
+.button-container button i{
+    font-size: 2rem;
+    color: #333;
+}
+.random-button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.random-button-container button{
+    padding: .8rem 2.4rem;
+    border-radius: .6rem;
+    background-color: royalblue;
+    color: #fff;
+    border: none;
+}
